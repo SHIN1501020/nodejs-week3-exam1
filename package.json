@@ -1,0 +1,21 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/SHIN1501020/nodejs-week3-exam1.git",
+  "author": "SHIN1501020 <shin8hh@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app",
+    "format": "prettier --write *.js **/*.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
